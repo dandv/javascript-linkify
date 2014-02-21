@@ -1,10 +1,15 @@
 # JavaScript Linkify: Process links in text! #
-[http://benalman.com/projects/javascript-linkify/](http://benalman.com/projects/javascript-linkify/)
+This library automatically detects URLs in plain text, taking care of a lot of edge cases:
+
+* only detect existing domain names (hello.io = OK, hello.xyz = BAD)
+* don't hyperlink punctuation at the end of the URL. (A most common example is http://this.com)
+* and many more!
+
+**[Demo](http://benalman.com/code/test/js-linkify/)**
 
 Version: 0.3, Last updated: 6/27/2009
 
 Visit the [project page](http://benalman.com/projects/javascript-linkify/) for more information and usage examples!
-
 
 ## Documentation ##
 [http://benalman.com/code/projects/javascript-linkify/docs/](http://benalman.com/code/projects/javascript-linkify/docs/)
